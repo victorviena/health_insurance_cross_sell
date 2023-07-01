@@ -1,0 +1,52 @@
+Etapas:
+
+1) Análise e definição do problema OK
+
+2) Planejamento da solução OK
+
+3) Parametrização de ambiente virtual OK
+
+4) Configuração do repositório remoto OK
+
+5) Coleta dos dados OK
+
+6) Descrição dos dados OK
+*Dimensões, tipos, NAs e estatísticas
+
+7) Tratamento dos dados OK
+*Renomeação de colunas, alteração dos tipos de dados, preencher NAs
+
+8) Mapa mental de hipóteses OK
+*Quais variáveis ajudam a explicar o fenômeno que eu estou procurando prever?
+
+9) Engenharia de features OK
+*Derivação e criação de features
+
+10) Análise exploratória de dados (EDA)
+
+11) Preparação dos dados
+*Enconding, normalização, reescala e transformação de natureza
+*Tratamento de outliers?
+
+12) Seleção de features
+
+13) Implementação dos modelos
+
+14) Seleção e otimização dos hiperparâmetros
+
+15) Métricas do modelo e tradução para negócio
+
+16) Implantação do modelo em produção
+
+17) Apresentação para o time de negócios
+
+
+Metodologia de execução:
+
+Como fazer para executar cada uma dessas etapas?
+
+- Primeiro ver vídeos no youtube sobre o tema
+*De preferência em português, se não achar em inglês
+*No máximo, 3 vídeos por seção, senão vou passar o dia inteiro vendo vídeos
+
+- Depois colocar a mão na massa para entregar cada etapa

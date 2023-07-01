@@ -1,0 +1,30 @@
+Contexto:
+
+Seguradora vende seguros de saúde
+
+Quer aumentar as vendas oferecendo seguro adicional de carro
+
+Fez uma pesquisa com uma parcela da sua base de clientes para saber se alguns desses clientes estavam propensos ou não a adquirir um seguro adicional de carro
+
+
+Desafio da empresa:
+
+Aumentar a receita através da venda cruzada de seguros de carro
+
+
+Meu objetivo como cientista de dados:
+
+Criar uma lista de 2000 clientes mais propensos a comprar um seguro adicional de carro
+
+Disponibilizar essa lista para o time de vendas
+
+
+Caminho para alcançar o meu objetivo e ajudar a resolver o desafio da empresa:
+
+Com base na pesquisa feita com os clientes, precisarei treinar um classificador de machine learning para classificar a base de clientes como propensa ou não propensa a adquirir um seguro adicional de carro
+
+Além disso, precisarei "rankear" essa propensão para criar uma lista com os 2000 clientes MAIS propensos a adquirir o seguro adicional de carro
+
+Ou seja, esse é um problema de classificação supervisionada (porque há uma pesquisa indicando quais clientes estão mais propensos a adquirir um seguro de carro) e de rankeamento
+
+Também precisarei disponbilizar a lista dos clientes mais propensos para o time de vendas
