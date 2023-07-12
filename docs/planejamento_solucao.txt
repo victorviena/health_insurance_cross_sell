@@ -22,17 +22,17 @@ Etapas:
 9) Engenharia de features OK
 *Derivação e criação de features
 
-10) Análise exploratória de dados (EDA)
+10) Análise exploratória de dados (EDA) OK
 
-11) Preparação dos dados
+11) Preparação dos dados OK
 *Enconding, normalização, reescala e transformação de natureza
 *Tratamento de outliers?
 
-12) Seleção de features
+12) Seleção de features OK
 
-13) Implementação dos modelos
+13) Implementação dos modelos OK
 
-14) Seleção e otimização dos hiperparâmetros
+14) Seleção e otimização dos hiperparâmetros OK
 
 15) Métricas do modelo e tradução para negócio
 
