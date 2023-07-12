@@ -6,7 +6,7 @@ import pandas as pd
 class HealthInsurance:
     
     def __init__( self ):
-        self.home_path =''
+        self.home_path = ''
         self.gender_encoding = pickle.load( open( self.home_path + '\features\gender_encoding.pkl', 'rb' ) )
         self.vehicle_damage_encoding = pickle.load( open( self.home_path + '\features\vehicle_damage_encoding.pkl', 'rb' ) ) 
         self.vehicle_age_encoding = pickle.load( open( self.home_path + '\features\vehicle_age_encoding.pkl', 'rb' ) )
