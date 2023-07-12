@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 aiofiles==22.1.0
 aiosqlite==0.18.0
 anyio==3.5.0
@@ -147,3 +148,10 @@ xgboost==1.7.6
 y-py==0.5.9
 ydata-profiling==4.3.1
 ypy-websocket==0.8.2
+=======
+xgboost==1.7.5
+pandas==2.0.0
+inflection==0.5.1
+flask==2.3.2
+scikit-learn==1.2.2
+>>>>>>> eb02cfce6cc568efd4aa45824bc0cb8fc03b2dbf
