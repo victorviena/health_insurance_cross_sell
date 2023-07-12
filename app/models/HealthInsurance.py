@@ -8,13 +8,13 @@ class HealthInsurance:
     def __init__( self ):
         self.home_path = ''
         self.gender_encoding = pickle.load( open( self.home_path + 'features/gender_encoding.pkl', 'rb' ) )
-        self.vehicle_damage_encoding = pickle.load( open( self.home_path + '/features/vehicle_damage_encoding.pkl', 'rb' ) ) 
-        self.vehicle_age_encoding = pickle.load( open( self.home_path + '\features\vehicle_age_encoding.pkl', 'rb' ) )
-        self.region_code_encoding = pickle.load( open( self.home_path + '\features\region_code_encoding.pkl', 'rb' ) )
-        self.policy_sales_channel_encoding = pickle.load( open( self.home_path + '\features\policy_sales_channel_encoding.pkl', 'rb' ) )
-        self.age_scaler = pickle.load( open( self.home_path + '\features\age_scaler.pkl', 'rb' ) )
-        self.annual_premium_scaler = pickle.load( open( self.home_path + '\features\annual_premium_scaler.pkl', 'rb' ) )
-        self.vintage_scaler = pickle.load( open( self.home_path + '\features\vintage_scaler.pkl', 'rb' ) )
+        self.vehicle_damage_encoding = pickle.load( open( self.home_path + 'features/vehicle_damage_encoding.pkl', 'rb' ) ) 
+        self.vehicle_age_encoding = pickle.load( open( self.home_path + 'features/vehicle_age_encoding.pkl', 'rb' ) )
+        self.region_code_encoding = pickle.load( open( self.home_path + 'features/region_code_encoding.pkl', 'rb' ) )
+        self.policy_sales_channel_encoding = pickle.load( open( self.home_path + 'features/policy_sales_channel_encoding.pkl', 'rb' ) )
+        self.age_scaler = pickle.load( open( self.home_path + 'features/age_scaler.pkl', 'rb' ) )
+        self.annual_premium_scaler = pickle.load( open( self.home_path + 'features/annual_premium_scaler.pkl', 'rb' ) )
+        self.vintage_scaler = pickle.load( open( self.home_path + 'features/vintage_scaler.pkl', 'rb' ) )
         
         
     def data_cleaning (self, df2):
