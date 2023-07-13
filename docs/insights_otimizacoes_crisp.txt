@@ -1,0 +1,23 @@
+Ideias do que fazer nos próximos ciclos CRISP para melhorar a performance do modelo:
+
+- Separar dados de treino e teste no início do projeto
+*Esse projeto tem uma especificidade porque ele possui uma planilha de treino e teste, mas a planilha de teste não tem a coluna "response" e, portanto, não é possível calcular métricas de performance com ela
+Portanto, o ideal seria separar a planilha de treino no início do projeto em 90% para treino e 10% para teste
+E depois, com 90% dos dados de treino, separar novamente uma parte (80% dos 90%) para de fato treinar o modelo e outra para validar o modelo (20% dos 90% dos dados iniciais)
+Daí eu treinaria o modelo, faria a primeira previsão em cima da validação, e depois otimizaria os hiperparâmetros
+Em seguida, eu treinaria o modelo final e faria as predições em cima dos 10% dos dados originais que foram separados para teste
+
+- Balancear dados e re-treinar modelos para tentar aumentar a performance @k
+*Pesquisar sobre métodos de balanceamento de dados em problemas de classificação com dados desbalanceados
+**Função de custo do modelo, over sampling, under sampling, smootie, 
+https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html
+
+- Fazer cross-validation
+*Confesso que não entendi muito bem em que etapa devo fazer o cross-validation, se é na hora da otimização do hiperparâmetros ou na hora de testar o modelo com os dados de validação
+
+- Juntar datasets de treino e validação para treinar o modelo final
+*Porque assim o modelo final vai ser treinado com ainda mais dados e, portanto, espera-se que ele aprenda mais e desempenhe ainda melhor
+
+- Testar algoritmo LGBM
+*Parece que é o que melhor performance dentre todos os modelos
+**Inclusive, eu rodei um pequeno teste, e o precision@k com k=2000 deu 2% a mais do que o XGB

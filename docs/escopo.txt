@@ -1,4 +1,4 @@
-Etapas:
+Escopo:
 
 1) Análise e definição do problema OK
 
@@ -36,7 +36,7 @@ Etapas:
 
 15) Métricas do modelo e tradução para negócio
 
-16) Implantação do modelo em produção
+16) Implantação do modelo em produção OK
 
 17) Apresentação para o time de negócios
 
