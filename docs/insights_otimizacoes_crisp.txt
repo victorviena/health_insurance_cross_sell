@@ -1,5 +1,9 @@
 Ideias do que fazer nos próximos ciclos CRISP para melhorar a performance do modelo:
 
+- Calcular ROI do projeto
+https://www.youtube.com/watch?v=yuBcZynmJzI
+https://scikit-learn.org/stable/modules/generated/sklearn.dummy.DummyClassifier.html#sklearn.dummy.DummyClassifier
+
 - Separar dados de treino e teste no início do projeto
 *Esse projeto tem uma especificidade porque ele possui uma planilha de treino e teste, mas a planilha de teste não tem a coluna "response" e, portanto, não é possível calcular métricas de performance com ela
 Portanto, o ideal seria separar a planilha de treino no início do projeto em 90% para treino e 10% para teste
